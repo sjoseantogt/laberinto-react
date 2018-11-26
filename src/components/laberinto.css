@@ -1,0 +1,32 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(16, 20px);
+    grid-template-rows: repeat(11, 20px);
+    grid-template: repeat();
+}
+
+button{
+    width: 20px;
+    height: 20px;
+}
+.path{
+    width: 20px;
+    height: 20px;
+}
+
+.player{
+    background-color: #02C39A;
+}
+
+.end{
+    background-color: #05668D;    
+}
+
+
+h1 {
+    font: 600 1.5em/1 'Raleway', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    width: 100%;
+}
